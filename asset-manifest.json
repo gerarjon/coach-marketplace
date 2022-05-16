@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/coach-marketplace/static/css/main.67b01652.css",
+    "main.js": "/coach-marketplace/static/js/main.2773d65c.js",
+    "index.html": "/coach-marketplace/index.html",
+    "main.67b01652.css.map": "/coach-marketplace/static/css/main.67b01652.css.map",
+    "main.2773d65c.js.map": "/coach-marketplace/static/js/main.2773d65c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67b01652.css",
+    "static/js/main.2773d65c.js"
+  ]
+}
