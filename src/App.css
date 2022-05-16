@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.input, .select select, .textarea {
+    color: rgb(173, 86, 245) ;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.select-hover {
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 216px;
+    word-wrap: break-word;
+    position: absolute;
+    transform: translate(96%, 1%);
+    z-index: 999;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.select-option {
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.select-option:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
+    filter: brightness(0%);
 }
 
-.App-link {
-  color: #61dafb;
+.dropdown-trigger > button {
+    width: 190px;
 }
+ 
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .select-container {
+        width: 93%;
+        margin: auto;
+    }
+    .coach-list {
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {} 
